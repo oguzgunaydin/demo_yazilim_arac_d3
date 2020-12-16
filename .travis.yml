@@ -1,0 +1,5 @@
+language: java 
+script:
+  - "mvn -FinalDers3/pom.xml clean install cobertura:cobertura"
+ jdk:
+  - oraclejdk8
